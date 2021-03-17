@@ -3,6 +3,9 @@
 
 G29 S2
 
+;Ensure no tool is selected
+;T-1
+
 ;Unlock Coupler
 M98 P"/macros/Coupler/Unlock"
 
