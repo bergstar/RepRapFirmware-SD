@@ -1,6 +1,8 @@
 ; tfree2.g
 ; called when tool 2 is freed
 
+G29 S2
+
 ;Drop the bed
 G91
 G1 Z4 F1000
@@ -25,3 +27,5 @@ M106 P6 S0
 
 ;Move Out
 G53 G1 Y175 F50000
+
+G29 S1

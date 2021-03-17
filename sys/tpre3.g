@@ -1,6 +1,8 @@
 ; tpre3.g
 ; called before tool 3 is selected
 
+G29 S2
+
 ;Unlock Coupler
 M98 P/macros/Coupler - Unlock
 
@@ -25,3 +27,5 @@ G90
 ;Move Out
 G1 Y150 F4000
 
+
+G29 S1
